@@ -66,6 +66,7 @@ request.send();
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+//Print the country which uses US Dollars as currency.
 function printData() {
    var data = JSON.parse(this.response);
         for(let i=0;i<data.length;i++){
@@ -81,21 +82,3 @@ request.open("GET", "https://restcountries.com/v3.1/all");
 request.send();
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-//Print the country which uses US Dollars as currency.
-let request = new XMLHttpRequest();
-request.addEventListener("load",Asiaregion);
-request.open('GET','https://restcountries.com/v3.1/all');
-request.send();
-
-function Asiaregion(){
-       let data = JSON.parse(this.response);
-     const datas = data.filter((value) => {
-      for (var i in value.currencies.name.USD) {
-        if (i === "Unites States Dollar") {
-          return true;
-        }
-      }
-    }).map((value) => value.name);
-    console.log(datas);
-}
