@@ -1,6 +1,6 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Anonymous Function <<<<<<<<<<<<<<<<<<<<<<<
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Anonymous Function <<<<<<<<<<<<<<<<<<<<<<<
 
- 1.Print odd numbers in an array
+// 1.Print odd numbers in an array
      let oddnum=function(array){
         for(var i = 0 ; i< array.length ; i++){
            if(array[i]%2!=0){
@@ -9,8 +9,8 @@
          }
       }
       oddnum([0,1,2,3,4,5,6,7,8,9]);
-................................................................
- 2.Convert all the strings to title caps in a string array
+//................................................................
+// 2.Convert all the strings to title caps in a string array
           let  titlecaps = function (str) {
             str = str.toLowerCase().split(' ');
             for (var i = 0; i < str.length; i++) {
@@ -19,8 +19,8 @@
              return str.join(' ');
           }
           console.log(titlecaps("Convert all the strings to title caps"));                  
-................................................................
- 3.Sum of all numbers in an array
+///................................................................
+// 3.Sum of all numbers in an array
      let sumofarr= function(array){
           var sum = 0;
           for(var i = 0 ; i< array.length ; i++){
@@ -29,8 +29,8 @@
            console.log(sum);
       }
     sumofarr([1,2,3,4,5,6,7,8,9])
-................................................................
- 4.Return all the prime numbers in an array
+//................................................................
+// 4.Return all the prime numbers in an array
       let primenum =function(numArray){
       numArray = numArray.filter((number) => {
         for (var i = 2; i <= Math.sqrt(number); i++) {
@@ -41,8 +41,8 @@
         console.log(numArray);
     }
     primenum([1,2,3,4,5,6,7,8,9])
-................................................................
- 5.Return all the palindromes in an array
+//................................................................
+// 5.Return all the palindromes in an array
      let palindromes= function (arr, n){
          for (let i = 0; i < n; i++){
            let ans = isPalindrome(arr[i]);
@@ -52,8 +52,8 @@
           console.log(true);
       };
      palindromes (["hello", "noon"]) 
-................................................................ 
- 6.Return median of two sorted arrays of the same size.
+//................................................................ 
+// 6.Return median of two sorted arrays of the same size.
      let arr =function getMedian(ar1, ar2,n)
 {
     var i = 0; 
@@ -90,15 +90,15 @@
     return (m1 + m2)/2;
 }
 console.log(arr([1, 12, 15, 26, 38],[2, 13, 17, 30, 45],[5]))
-................................................................
- 7.Remove duplicates from an array
+//................................................................
+// 7.Remove duplicates from an array
     let duplicate= function(array){
       let dup = [...new Set(array)];
       console.log(dup);
     }
    duplicate('Remove duplicates from an array')
-................................................................
- 8.Rotate an array by k times
+//................................................................
+// 8.Rotate an array by k times
 let rotateArray = function(nums, k) {
 
   for (let i = 0; i < k; i++) {
@@ -111,10 +111,10 @@ rotateArray([1,2,3,4] , 2)
 
 
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> IIFE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> IIFE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
- 1.Print odd numbers in an array
+// 1.Print odd numbers in an array
        (function(array){
              for(var i = 0 ; i< array.length ; i++){
                if(array[i]%2!=0){
@@ -122,8 +122,8 @@ rotateArray([1,2,3,4] , 2)
                 } 
               }
         })([1,2,3,4,5,6,7,8,9])
-................................................................
- 2.Convert all the strings to title caps in a string array
+//................................................................
+// 2.Convert all the strings to title caps in a string array
       (function (str) {
            str = str.toLowerCase().split(' ');
             for (var i = 0; i < str.length; i++) {
@@ -131,8 +131,8 @@ rotateArray([1,2,3,4] , 2)
              } 
              console.log(str.join(' '));
        }) ("Convert all the strings to title caps");
-................................................................
- 3.Sum of all numbers in an array
+//................................................................
+// 3.Sum of all numbers in an array
       (function(array){
            var sum = 0;
            for(var i = 0 ; i< array.length ; i++){
@@ -140,8 +140,8 @@ rotateArray([1,2,3,4] , 2)
              }
              console.log(sum);
        })([1,2,3,4,5,6,7,8,9])
-................................................................
- 4.Return all the prime numbers in an array
+//................................................................
+// 4.Return all the prime numbers in an array
           ( function(numArray){
               numArray = numArray.filter((number) => {
                 for (var i = 2; i <= Math.sqrt(number); i++) {
@@ -151,8 +151,8 @@ rotateArray([1,2,3,4] , 2)
               });
               console.log(numArray)
           })([1,2,3,4,5,6,7,8,9]) 
-................................................................
- 5.Return all the palindromes in an array
+//................................................................
+// 5.Return all the palindromes in an array
      (function(arr, n){
        for (let i = 0; i < n; i++){
           let ans = isPalindrome(arr[i]);
@@ -161,8 +161,8 @@ rotateArray([1,2,3,4] , 2)
         }
         console.log(true);
      })(["hello", "noon"])
-................................................................ 
- 6.Return median of two sorted arrays of the same size.
+//................................................................ 
+// 6.Return median of two sorted arrays of the same size.
       (function(ar1, ar2,n){
     var i = 0; 
     var j = 0;
@@ -197,14 +197,15 @@ rotateArray([1,2,3,4] , 2)
     }
     console.log((m1 + m2)/2);
 })([1, 12, 15, 26, 38],[2, 13, 17, 30, 45],[5])
-................................................................
- 7.Remove duplicates from an array
+//................................................................
+// 7.Remove duplicates from an array
      (function(array){
         let dup = [...new Set(array)];
         console.log(dup);
      })('Remove duplicates from an array')
-................................................................
- 8.Rotate an array by k times(function(nums, k) {
+//................................................................
+// 8.Rotate an array by k times
+ (function(nums, k) {
 
   for (let i = 0; i < k; i++) {
       nums.unshift(nums.pop());
