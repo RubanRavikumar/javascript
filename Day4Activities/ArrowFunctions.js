@@ -1,5 +1,5 @@
-..............................................................................
- 1.Print odd numbers in an array
+//..............................................................................
+ // 1.Print odd numbers in an array
     let oddnum =(n)=>{
       for(let i=0;i<n.length;i++){
         if(n[i]%2 == 1){
@@ -8,8 +8,8 @@
       }
    }
    oddnum(['0','1','2','3','4','5','6','7','8','9']);
-...............................................................................
-2.Convert all the strings to title caps in a string array
+//...............................................................................
+ //2.Convert all the strings to title caps in a string array
      let string = (str)=>{
        str = str.toLowerCase().split(' ');
        for(let i=0 ; i<str.length ; i++){
@@ -18,8 +18,8 @@
        return str.join(' ');
      }
      console.log(string("Convert all the strings to title caps"));
-...............................................................................
- 3.Sum of all numbers in an array
+//...............................................................................
+ //3.Sum of all numbers in an array
     let sumofarr=(num)=>{
        let sum = 0 ;
        for(let i=0;i<num.length;i++){
@@ -28,8 +28,8 @@
         console.log(sum);
      }
      sumofarr([0,1,2,3,4,5,6,7,8,9]);
-...............................................................................
- 4.Return all the prime numbers in an array
+//...............................................................................
+ //4.Return all the prime numbers in an array
      function sumPrimes(num) {
        let numArray = [];
        for (let i = 1; i <= num; i++) {
@@ -46,10 +46,10 @@
     return numArray;
    }
    console.log(sumPrimes(10));
-...............................................................................
- 5.Return all the palindromes in an array
+//...............................................................................
+ //5.Return all the palindromes in an array
       const getAllPalindromes = (words) =>
       words.filter((word) => word.split("").reverse().join("") === word);
 
       console.log(getAllPalindromes(["hello", "noon"]));
-...............................................................................
+//...............................................................................

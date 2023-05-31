@@ -1,4 +1,4 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FOR LOOP <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FOR LOOP <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
  
 const resume =[ {
@@ -25,10 +25,10 @@ for (let i=0 ; i<resume.length ; i++){
      console.log(resume[i]);
 }
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FOR IN LOOP <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FOR IN LOOP <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
-const resume =[ {
+const resume1 =[ {
   "Name" : "Ruban",
   "Email" : "rruban006@gmail.com"
  },
@@ -48,12 +48,12 @@ const resume =[ {
   "Work experiance" : "A year of experiance in SURFIN TOOLS PVT LIMMITED",
   "Programing language" : " Javascript,HTML,CSS,AngularJS,NodeJS,MongoDB,SQL"
  }]
-for (let i in resume){
-   console.log(resume[i]);
+for (let i in resume1){
+   console.log(resume1[i]);
  }
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>FOR EACH LOOP<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-let resume =[ {
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>FOR EACH LOOP<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+let resume2 =[ {
   "Name" : "Ruban",
   "Email" : "rruban006@gmail.com"
  },
@@ -71,6 +71,6 @@ let resume =[ {
   "Work experiance" : "A year of experiance in SURFIN TOOLS PVT LIMMITED",
   "Programing language" : " Javascript,HTML,CSS,AngularJS,NodeJS,MongoDB,SQL"
  }]
-resume.forEach((detials)=>{
+resume2.forEach((detials)=>{
    console.log(detials.Name);
 });
