@@ -1,0 +1,110 @@
+.square{
+    position: relative;
+    border: 2px solid black;
+    margin: 8% 0 0 15%;
+}
+
+.headding{
+    padding: 20px 0 0 430px ;
+}
+
+.headding1{
+    padding: 5px 0 0 385px;
+}
+
+.squarev1{
+    width: 1000px;
+    height: 500px;
+
+    >.squarev2{
+        width: 910px; 
+        height: 310px; 
+        margin:50px 50px 50px 50px;
+        padding: 0px 0px 0px 0px;
+        >.squarev3{
+            position: absolute;
+            width: 300px;
+            height:310px;
+            margin: 0px 0px 0px 0px;
+            display: inline-block !important;
+            border: none;
+
+            >.imagetag{
+                position: absolute;
+                width: 150px;
+                height: 150px;
+                margin: 50px 0px 0px 80px;
+            }
+        }
+        
+        >.squarev4{
+            position: absolute;
+            width: 610px;
+            height:310px;
+            margin: 0px 0px 0px 300px;
+            border: none;
+
+            >.nametitle{
+                padding-left:200px;
+                padding-top:20px;
+                display: inline-block;
+    
+                >.Namebox{
+                    display: inline-block;
+                    width: 300px;
+                    height: 30px;
+                    margin-left:8px;
+                    margin-top:10px;
+                }
+            }
+            >.Emailtitle{
+                padding-left:203px;
+                padding-top:20px;
+    
+                >.emailbox{
+                    width: 300px;
+                    height: 30px;
+                    margin-left:12%;
+                    margin-top:-6%;
+                }
+            }
+            >.pntitle{
+                padding-left:173px;
+                padding-top:20px;
+    
+                >.pnbox{
+                    width: 300px;
+                    height: 30px;
+                    margin-left:18%;
+                    margin-top:-6%;
+                }
+            }
+            >.settitle{
+                padding-left:125px;
+                padding-top:20px;
+    
+                >.setbox{
+                    width: 100px;
+                    height: 30px;
+                    margin-left:26%;
+                    margin-top:-6%;
+                }
+            }
+            >.atttitle{
+                padding-left:83px;
+                padding-top:20px;
+    
+                >.attbox{
+                    width: 300px;
+                    height: 30px;
+                    margin-left:32%;
+                    margin-top:-6%;
+                }
+            }
+            >.button{
+                padding-left:200px;
+                padding-top:10px;
+            }
+        }
+    }
+}

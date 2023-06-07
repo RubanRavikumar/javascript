@@ -1,18 +1,18 @@
-const greet = (message = "", cb = (d) => {}) => {
-    console.log(message);
-    cb(message);
+const CBHT = (countdown = "", cb = (d) => {}) => {
+    console.log(countdown);
+    cb(countdown);
   };
-  greet(10, () => {
-    greet(9, () => {
-      greet(8, () => {
-        greet(7, () => {
-          greet(6, () => {
-            greet(5, () => {
-              greet(4, () => {
-                greet(3, () => {
-                  greet(2, () => {
-                    greet(1, () => {
-                      greet("Happy Independence Day");
+  CBHT(10, () => {
+    CBHT(9, () => {
+      CBHT(8, () => {
+        CBHT(7, () => {
+          CBHT(6, () => {
+            CBHT(5, () => {
+              CBHT(4, () => {
+                CBHT(3, () => {
+                  CBHT(2, () => {
+                    CBHT(1, () => {
+                      CBHT("Happy Independence Day");
                     });
                   });
                 });
