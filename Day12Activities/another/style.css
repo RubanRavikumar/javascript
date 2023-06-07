@@ -1,0 +1,39 @@
+.square{
+    position: relative;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+.squarev1{
+    width: 1000px;
+    height: 500px;
+
+    >.squarev2{
+        width: auto; 
+        height: 300px; 
+        margin:50px 50px 100px 50px;
+
+        >.squarev3{
+            width:150px; 
+            height:150px; 
+            padding-right:10px;
+            padding-bottom: 5px;
+        }
+
+        >.Namebox{
+            width: 100px;
+            height: 30px;
+            margin:40px 100px 100px 100px;
+        }
+    }
+    
+}
+
+.headding{
+    padding: 20px 0 0 430px ;
+}
+
+.headding1{
+    padding: 5px 0 0 385px;
+}

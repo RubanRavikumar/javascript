@@ -1,0 +1,72 @@
+
+        /* Tag selector */
+        body{
+            background : rgb(151, 160, 155);
+        }
+
+        /* class selector */
+        .text-white {
+            color :black !important;
+        }
+
+        /* ID Selector */
+        #rp{
+            color: blue;
+        }
+
+        .ball{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: rgb(90, 161, 247);
+            border-radius:5px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 0 10px 0 0 ;
+        }
+
+        .input-box{
+            width: 100%;
+            height: 30px;
+            border: none;
+            padding-inline-start: 10px;
+            background: rgb(250, 250, 248);
+            border-radius: 2px;
+           display: block;
+        }
+
+        .input-box:hover{
+            background-color: rgb(249, 245, 245);
+        }
+
+        .input-box:focus{
+            outline: lightgreen;
+        }
+
+        .contract-us-form{
+          width: 100%;
+          height: 100vh;
+          padding: 20px;
+          box-sizing: border-box;
+
+          >.input-box{
+            margin: 0 0 15px 0;
+          }
+          >.Submit-button{
+            width: 100%;
+            height: 50px;
+            background-color: antiquewhite;
+            border: none;
+          }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+         p{
+            font-style: italic;
+        }
+

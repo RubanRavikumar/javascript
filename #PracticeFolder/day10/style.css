@@ -1,0 +1,32 @@
+a{
+    color: #04f811;
+}
+
+a:visited{
+    color:rgb(244, 7, 7) ;  
+}
+
+.square{
+    position: relative;
+    background: #0408f8;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    
+}
+
+.square:hover{
+    background:rgb(4, 245, 56);
+}
+
+.squarev1 {
+    width: 100px;
+    height: 100px;
+}
+
+.squarev2 {
+    width: 300px;
+    height: 300px;
+}
