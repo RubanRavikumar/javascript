@@ -1,4 +1,5 @@
 //.......... countriesname,region,subregion,population  ..........................
+
  function printData() {
    const countries = JSON.parse(this.responseText);
   countries.forEach((coun) =>
