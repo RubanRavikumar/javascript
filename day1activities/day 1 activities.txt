@@ -3,6 +3,7 @@
        loaded its blocks another resources behind it.
    ==>But HTTP/2 is use single TCP connection to send the multiple stream of data at a time 
        So one resource cannot block another resource.
+
 2.Write a blog about objects and its internal representation in Javascript
    ==> Object in javascript may be defined as an unordered collection of related data of 
        primitive or reference type in form of key:value pair.
