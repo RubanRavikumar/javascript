@@ -21,7 +21,7 @@ let timer=10;
                                             setTimeout(() =>{
                                                 time.innerHTML = timer--;
                                                 setTimeout(() =>{
-                                                    time.innerHTML = "Happy New Year!"
+                                                    time.innerHTML = "Happy Independence Day"
                                                 },1000)
                                             },1000)
                                         },1000)
