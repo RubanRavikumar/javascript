@@ -1,27 +1,27 @@
 let timer=10;
-        let time = document.getElementById('display');
-        setTimeout(() => {
-            time.innerHTML = timer--;
-            setTimeout(() =>{
-                time.innerHTML = timer--;
-                setTimeout(() =>{
-                    time.innerHTML = timer--;
+let time = document.getElementById('display');
+   setTimeout(() => {
+      time.innerHTML = timer--;
+          setTimeout(() =>{
+             time.innerHTML = timer--;
+               setTimeout(() =>{
+                   time.innerHTML = timer--;
                     setTimeout(() =>{
-                        time.innerHTML = timer--;
+                       time.innerHTML = timer--;
                         setTimeout(() =>{
-                            time.innerHTML = timer--;
+                           time.innerHTML = timer--;
                             setTimeout(() =>{
-                                time.innerHTML = timer--;
+                               time.innerHTML = timer--;
                                 setTimeout(() =>{
-                                    time.innerHTML = timer--;
+                                  time.innerHTML = timer--;
                                     setTimeout(() =>{
-                                        time.innerHTML = timer--;
+                                      time.innerHTML = timer--;
                                         setTimeout(() =>{
-                                            time.innerHTML = timer--;
+                                           time.innerHTML = timer--;
                                             setTimeout(() =>{
-                                                time.innerHTML = timer--;
+                                              time.innerHTML = timer--;
                                                 setTimeout(() =>{
-                                                    time.innerHTML = "Happy New Year!"
+                                                  time.innerHTML = "Happy Independence Day"
                                                 },1000)
                                             },1000)
                                         },1000)
