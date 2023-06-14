@@ -34,8 +34,7 @@ async function renderbrewerylist(){
                 </span>
                                 
               </form>
-          </div> 
-        `;
+          </div> `;
         createbreweryheadder.appendChild(breweryheadder);
 
         let createbrewerylist =document.getElementsByClassName('container')[0];
