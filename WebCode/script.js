@@ -46,11 +46,11 @@ async function renderbrewerylist(){
                 <div class="col-lg-4 col-sm-12">
                   <div class="box">
                     <div class="inside-box">
-                      <div>- name:${element.name}</div>
-                      <div>- phone no:${element.phone}</div>
-                      <div>- type:${element.brewery_type}</div>
-                      <div>- address:${element.address_1}</div>
-                      <div>- website url:${element.website_url}</div>
+                      <div>- Name : ${element.name}</div>
+                      <div>- Phone no : ${element.phone}</div>
+                      <div>- Type : ${element.brewery_type}</div>
+                      <div>- Address : ${element.address_1}</div>
+                      <div>- Website url : ${element.website_url}</div>
                     </div>
                   </div>
                 </div>
