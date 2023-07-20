@@ -1,0 +1,42 @@
+1.Sellect database querie
+   => use assessment(switched to db assessment)
+------------------------------------------------------------------------ 
+2.Find all the information about each products
+   => db.day_one_task.find()
+-------------------------------------------------------------------------   
+3.Find the product price which are between 400 to 800
+   =>
+-------------------------------------------------------------------------   
+
+4.Find the product price which are not between 400 to 600
+   =>
+-------------------------------------------------------------------------   
+
+5.List the four product which are grater than 500 in price 
+   =>
+-------------------------------------------------------------------------   
+
+6.Find the product name and product material of each products
+   =>
+-------------------------------------------------------------------------   
+
+7.Find the product with a row id of 10
+   =>
+-------------------------------------------------------------------------   
+
+8.Find only the product name and product material
+   =>
+-------------------------------------------------------------------------   
+
+9.Find all products which contain the value of soft in product material
+   =>
+-------------------------------------------------------------------------   
+
+10.Find products which contain product color indigo  and product price 492.00
+   =>
+-------------------------------------------------------------------------   
+
+11.Delete the products which product price value are same
+   =>
+-------------------------------------------------------------------------   
+
