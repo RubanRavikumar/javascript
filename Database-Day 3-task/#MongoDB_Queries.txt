@@ -17,7 +17,7 @@
 -------------------------------------------------------------------------   
 
 5.List the four product which are grater than 500 in price 
-   =>db.day_one_task.find({ product_price:{$gte: 400}}); 
+   =>db.day_one_task.find({ product_price:{$gte: 500}}).limit(4)
 
 -------------------------------------------------------------------------   
 
@@ -37,17 +37,17 @@
 -------------------------------------------------------------------------   
 
 9.Find all products which contain the value of soft in product material
-   =>
+   =>db.day_one_task.find({product_material:"Soft"})
 
 -------------------------------------------------------------------------   
 
 10.Find products which contain product color indigo  and product price 492.00
-   =>
+   =>db.day_one_task.find({ $and:[{ product_price:492 },{ product_color:"indigo" }]})
 
 -------------------------------------------------------------------------   
 
 11.Delete the products which product price value are same
-   =>
+   =>db.day_one_task.deleteMany({product_price:36})
    
 -------------------------------------------------------------------------   
 
